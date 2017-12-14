@@ -106,9 +106,9 @@ section.col-content {
     section.col-content > div#col-3 {
       /** USERS ONLINE **/ }
       section.col-content > div#col-3 img {
-        height: 48px;
-        width: 48px;
-        padding: .1rem; }
+        height: 38px;
+        width: 38px;
+        padding: .25rem; }
 
 /** SECTION
     ------------------------- **/
