@@ -99,8 +99,6 @@ section.col-content {
       text-indent: 0px;
       margin: 0px;
       padding: 0px; }
-      section.col-content > div ul li:before {
-        content: '— '; }
     section.col-content > div h1 {
       text-align: center; }
     section.col-content > div#col-1, section.col-content > div#col-2, section.col-content > div#col-3 {
@@ -108,9 +106,9 @@ section.col-content {
     section.col-content > div#col-3 {
       /** USERS ONLINE **/ }
       section.col-content > div#col-3 img {
-        height: 28px;
-        width: 28px;
-        padding: .2rem; }
+        height: 48px;
+        width: 48px;
+        padding: .1rem; }
 
 /** SECTION
     ------------------------- **/
@@ -123,7 +121,8 @@ footer {
   margin: 0rem 7rem;
   text-align: center; }
   footer span#status {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #58e520; }
 
 /** BUTTON
     ------------------------- **/
