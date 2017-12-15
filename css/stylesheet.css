@@ -106,10 +106,13 @@ section.col-content {
     section.col-content > div#col-1, section.col-content > div#col-2, section.col-content > div#col-3 {
       max-height: 240px; }
     section.col-content > div#col-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       /** USERS ONLINE **/ }
       section.col-content > div#col-3 img {
-        height: 28px;
-        width: 28px;
+        height: 40px;
+        width: auto;
         padding: .2rem; }
 
 /** SECTION
