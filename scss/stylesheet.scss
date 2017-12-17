@@ -165,11 +165,16 @@
 			}
 
 			&#col-3 {
+				display: flex;
+
+				flex-direction: column;
+				align-items: center;
+
 				/** USERS ONLINE **/
 
 				img {
-					height: 28px;
-					width: 28px;
+					height: 40px;
+					width: auto;
 					padding: .2rem;
 				}
 
