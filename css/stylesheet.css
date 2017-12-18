@@ -26,7 +26,8 @@ header {
   position: fixed;
   padding: 0rem 6rem; }
   header img {
-    pointer-events: none; }
+    pointer-events: none;
+    height: 32px; }
   header .brand {
     display: flex;
     flex-direction: row;
@@ -75,7 +76,8 @@ section.well {
   padding: 2rem;
   margin: 0px 6rem 6px 6rem; }
   section.well img {
-    pointer-events: none; }
+    pointer-events: none;
+    height: 175px; }
   section.well p {
     font-size: 18pt;
     width: 60%; }
