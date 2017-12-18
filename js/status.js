@@ -2,7 +2,7 @@ function ServerStatus(serverip) {
     $.getJSON('https://use.gameapis.net/mc/query/info/' + serverip, function (json) {
 
         if (json.status !== true) {
-            $('#status').html("???");
+            $('#status').html("Offline");
         } else {
             $("#status").html(json.status ? 'online' : 'offline');
 
