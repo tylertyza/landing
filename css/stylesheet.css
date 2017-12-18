@@ -81,7 +81,7 @@ section.well {
     width: 60%; }
 
 /** COL-CONTENT
-	------------------------- **/
+  ------------------------- **/
 section.col-content {
   display: flex;
   flex-direction: row;
@@ -99,8 +99,6 @@ section.col-content {
       text-indent: 0px;
       margin: 0px;
       padding: 0px; }
-      section.col-content > div ul li:before {
-        content: '— '; }
     section.col-content > div h1 {
       text-align: center; }
     section.col-content > div#col-1, section.col-content > div#col-2, section.col-content > div#col-3 {
@@ -126,7 +124,8 @@ footer {
   margin: 0rem 7rem;
   text-align: center; }
   footer span#status {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #55FF55; }
 
 /** BUTTON
     ------------------------- **/
